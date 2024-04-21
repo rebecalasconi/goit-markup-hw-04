@@ -200,17 +200,13 @@ a:hover {
     justify-content: center
 }
 
-.our__team__members__socials {
+.team__socials {
     display: flex;
-    gap: 10px;
     justify-content: center;
     list-style: none;
-    padding-bottom: 30px;
 }
 
 .members__svg {
-    width: 20px;
-    height: 20px;
     padding: 12px 12px;
 }
 
@@ -218,14 +214,12 @@ a:hover {
     background-color: var(--blue);
     padding: 12px;
     border-radius: 100px;
-    stroke: var(--white);
 }
 
 .members__svg:focus {
     background-color: var(--blue);
     padding: 12px 12px;
     border-radius: 50px;
-    stroke: var(--white);
 }
 
 .our__team__title {
@@ -261,8 +255,39 @@ a:hover {
     margin-bottom: 30px;
     }
 
+    /* Our regular customers section */
+.regular__customers {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 94px;
+}
+
+.regular__customers__item {
+   border: 1px solid var(--gray);
+   border-radius: 4px;
+   padding: 23px 60px;
+   width: 170px;
+   height: 92px;
+}
+
+.regular__customers__item:hover {
+    border: 3px solid var(--blue);
+    stroke: var(--blue);
+    fill: var(--blue);
+}
+
+.regular__customers__list  {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
     /* Footer section */
 .footer {
+    display: flex;
     background-color: var(--darkgray);
     margin-top: -94px;
     padding-top: 50px;
