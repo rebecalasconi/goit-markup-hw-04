@@ -13,36 +13,31 @@
 </head>
 <body class="body">
         <!--Header section-->
-        <header>
-            <div class="container">
-              <div class="list-flex">
-              <nav class="navigation">
-              <div id="WebStudio">  
-                  <a href="#WebStudio"><p><b><span class="header__logo__web">Web</span>Studio</b></p></a>
-              </div>
-              </nav>
-              <div class="list">
-                  <ul class="list-flex">
-                      <li>
-                          <a href="index.html">Studio</a>
-                      </li>
-                      <li>
-                        <a href="portofolio.html"><span class="second__list">Portofolio</span></a>
-                      </li>
-                      <li>
-                          <a href="#Contacts">Contacts</a>
-                      </li>
-                      <li>
-                          <a href="mailto:info@devstudio.com" class="list__info">@devstudio.com</a>
-                      </li>
-                      <li>
-                      <a href="tel:+12127724150" class="list__info">+1 212-772-4150</a>
-                      </li>
-                  </ul>
-              </div>
-             </div>
+        <header class="header">
+            <div class="list-flex">
+            <nav class="navigation">
+            <div id="WebStudio">  
+                <a href="#WebStudio"><p><b><span class="header__logo__web">Web</span>Studio</b></p></a>
             </div>
-          </header>
+            </nav>
+                <ul class="list-flex">
+                    <li>
+                        <a href="index.html"><span class="second__list">Studio</span></a>
+                    </li>
+                    <li>
+                      <a href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#Contacts">Contacts</a>
+                    </li>
+                </ul>
+            <!--Contact info-->
+            <div class="header__info">
+                <a href="mailto:info@devstudio.com" class="header__info-flex"><svg class="svg__header"><use href="./images/icons.svg#icon-envelope" width="16"/></svg>info@devstudio.com</a>
+                <a href="tel:+1212-772-4150" class="header__info-flex"><svg class="svg__header"><use href="./images/icons.svg#icon-smartphone" width="10"/></svg>+1212-772-4150</a>
+            </div>
+            </div>
+        </header>
       
 
          <!--Portiunea principala a paginii web-->
@@ -138,7 +133,7 @@
     
                 <!--Footer section-->
                 <footer class="footer" class="section">
-                    <div class="container">
+                    <div>
                     <div class="footer__container"><a id="footer__logo" href="#"><p><b><span class="footer__logo__web">Web</span>Studio</b></p></a></div>
                     <div id="Contacts">
                         <address class="footer__address">
@@ -147,6 +142,14 @@
                             <a href="tel:+12127724150">+1 212-772-4150</a>
                         </address>
                     </div>
+                </div>
+                <div class="footer__social">
+                    <h3 class="footer__social__title"><b>FIND US ON</b></h3>
+                    <ul class="footer__social__list">
+                        <li class="footer__social__item"><a href=""><svg class="footer__social__icon"><use href="./images/icons.svg#icon-instagram" width="20" height="20"/></svg></a></li>
+                        <li class="footer__social__item"><a href=""><svg class="footer__social__icon"><use href="./images/icons.svg#icon-twitter" width="20" height="20"/></svg></a></li>
+                        <li class="footer__social__item"><a href=""><svg class="footer__social__icon"><use href="./images/icons.svg#icon-facebook" width="20" height="20"/></svg></a></li>
+                        <li class="footer__social__item"><a href=""><svg class="footer__social__icon"><use href="./images/icons.svg#icon-linkedin" width="20" height="20"/></svg></a></li>
                 </div>
                 </footer>
 </body>
