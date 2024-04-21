@@ -202,26 +202,29 @@ a:hover {
     justify-content: center
 }
 
-.team__socials {
-    display: flex;
-    justify-content: center;
+.team__social__list {
     list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
-.members__svg {
-    padding: 12px 12px;
-}
 
-.members__svg:hover {
+.team__social__list>.team__social__item:hover {
     background-color: var(--blue);
-    padding: 12px;
     border-radius: 100px;
+    fill: var(--white);
+    stroke: var(--white);
 }
 
-.members__svg:focus {
-    background-color: var(--blue);
-    padding: 12px 12px;
-    border-radius: 50px;
+.team__social__icon {
+    fill: var(--icons-color);
+    padding: 11px 11px;
+}
+
+.team__social__item {
+    width:44px;
+    height: 44px;
 }
 
 .our__team__title {
