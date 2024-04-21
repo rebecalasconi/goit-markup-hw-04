@@ -1,0 +1,317 @@
+:root {
+    --darkgray: #2F303A;
+    --blue: #2196F3;
+    --black: #212121;
+    --gray: #757575;
+    --shadow: #00000024;
+    --lightgray: #F5F4FA;
+    --white: #ffffff;
+    --border-color: #ECECEC;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*Body section styling- first page */
+.body {
+    font-family: var(--primary-font);
+    background-color: var(--white);
+}
+
+/* Header section style */
+.studio {
+    color: var(--blue);
+ }
+
+.navigation a {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+}
+
+.header__logo__web {
+    color: var(--blue);
+    padding-left: 50px;
+}
+
+.list-flex {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    line-height: 16.41px;
+    height: 80px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.list-flex>li {
+    margin-right: 20px;
+    margin-left: 48px;
+    display: flex;
+}
+
+.list-flex>li:nth-child(4) {
+    margin-left: 200px;
+}
+
+.list__info {
+    color: var(--gray);
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--blue);
+}
+
+/* Portiunea principala a paginii */
+.title {
+    font-size: 44px;
+    text-align: center;
+    background-color: var(--darkgray);
+    max-width: 100%;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-shadow: 2px 2px 2px var(--black);
+    padding-top: 182px;
+    padding-bottom: 280px;
+    margin-top: -94px;
+}
+
+.button {
+    font-size: 16px;
+    background-color: var(--blue);
+    color: var(--white);
+    line-height: 2;
+    border-radius: 10px;
+    border-color: var(--darkgray);
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+.button:hover {
+    color: var(--black);
+  }
+
+  /* Hero-section */
+.hero__section {
+    display: flex;
+    justify-content: center;
+}
+  
+.hero__section__title {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Roboto;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+ } 
+
+ .hero__section__container {
+    width: 270px;
+ }
+
+ .hero__section__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 10px;
+    color: var(--gray); 
+}
+
+
+/* What we do section */
+.what__we__do__images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -94px;
+}
+.what__we__do__title {
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--shadow);
+    margin-top: -94px;
+}
+
+
+/* Our team section */
+
+.our__team {
+    background-color: var(--lightgray);
+    margin-left: -32px;
+    margin-right: -32px;
+    padding-bottom: 86px;
+    padding-top: 92px;
+    margin-bottom: -94px;
+}
+
+.our__team__members {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    justify-content: center
+}
+.our__team__title {
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--shadow);
+    padding-bottom: 50px;
+}
+
+.containers {
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 1px 2px 1px var(--shadow);
+}
+
+.container__title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: var(--black);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    
+.container__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 18.75px;
+    color: var(--gray);
+    margin-bottom: 30px;
+    }
+
+    /* Footer section */
+.footer {
+    background-color: var(--darkgray);
+    margin-top: -94px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+.footer__container {
+    padding-bottom: 28px;
+}
+#footer__logo {
+    font-family:var(--secondary-font);
+    font-size: 26px;
+    color: var(--white);
+}
+    
+.footer__logo__web {
+    font-family: inherit;
+    color: var(--blue);
+    line-height: normal;
+}
+
+.footer__address a {
+    display: inline-block;
+    padding-bottom: 10px;
+    color: var(--gray);
+    font-style: normal;
+}
+
+
+/* Second page styling */
+.second__list {
+    color: var(--blue);
+}
+
+/* Portiunea principala a paginii */
+.selection {
+    text-align: center;
+    border: var(--blue);
+}
+
+
+.selection>button {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.selection>button:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    box-shadow: 1px 1px 1px var(--lightgray);
+    cursor: pointer;
+  }
+
+  /*Container cu carduri despre proiectele realizate*/
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.container__portofolio {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 5px;
+    background-color: var(--white);
+    box-shadow: 1px 2px 1px var(--lightgray);  
+}
+
+.container__portofolio>img {
+    margin-bottom: 20px;
+}
+.card__title {
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.cards__subtitle {
+    font-size: 16px;
+    color: var(--gray);
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  a[href*="https://www.mapquest.com/us/ny/new-york/10065-5024/695-park-ave-40.76874,-73.96518"] {
+    color: var(--white);
+  }
