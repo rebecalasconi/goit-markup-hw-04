@@ -32,6 +32,11 @@ img {
 }
 
 /* Header section style */
+.header {
+    height: 80px;
+    display: flex;
+    align-content: center;
+}
 .studio {
     color: var(--blue);
  }
@@ -46,6 +51,16 @@ img {
     padding-left: 50px;
 }
 
+.header__info {
+    display: flex;
+}
+.svg {
+    display: inline-flex;
+    align-self: center;
+    height: 12px;
+
+}
+
 .list-flex {
     display: flex;
     list-style: none;
@@ -58,13 +73,8 @@ img {
 }
 
 .list-flex>li {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 48px;
-    display: flex;
-}
-
-.list-flex>li:nth-child(4) {
-    margin-left: 200px;
 }
 
 .list__info {
@@ -80,6 +90,9 @@ a:hover{
     color: var(--blue);
 }
 
+a:hover {
+    stroke: var(--blue);
+}
 /* Portiunea principala a paginii */
 .title {
     font-size: 44px;
@@ -116,6 +129,20 @@ a:hover{
 .hero__section {
     display: flex;
     justify-content: center;
+}
+
+.hero__section__svg {
+    width: 70px;
+    height: 70px;
+}
+
+.hero__section__background {
+    text-align: center;
+    background-color: var(--lightgray);
+    width: 230px;
+    height: 120px;
+    margin-bottom: 30px;
+    padding-top: 25px;
 }
   
 .hero__section__title {
@@ -172,6 +199,35 @@ a:hover{
     gap: 30px;
     justify-content: center
 }
+
+.our__team__members__socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.members__svg {
+    width: 20px;
+    height: 20px;
+    padding: 12px 12px;
+}
+
+.members__svg:hover {
+    background-color: var(--blue);
+    padding: 12px;
+    border-radius: 100px;
+    stroke: var(--white);
+}
+
+.members__svg:focus {
+    background-color: var(--blue);
+    padding: 12px 12px;
+    border-radius: 50px;
+    stroke: var(--white);
+}
+
 .our__team__title {
     font-size: 36px;
     text-align: center;
@@ -183,6 +239,7 @@ a:hover{
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--shadow);
+    width: 240px;
 }
 
 .container__title {
