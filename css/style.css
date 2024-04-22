@@ -243,6 +243,10 @@ a:focus{
     background-color: var(--blue);
 }
 
+.team__social__item:focus {
+    background-color: var(--blue);
+}
+
 .team__social__icon {
     fill: var(--icons-color);
     padding: 11px 11px;
@@ -314,6 +318,12 @@ a:focus{
 }
 
 .regular__customers__item:hover {
+    border: 3px solid var(--blue);
+    fill: var(--blue);
+    stroke: var(--blue);
+}
+
+.regular__customers__item:focus {
     border: 3px solid var(--blue);
     fill: var(--blue);
     stroke: var(--blue);
