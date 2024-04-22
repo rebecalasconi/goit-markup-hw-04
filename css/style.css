@@ -37,72 +37,68 @@ img {
 /* Header section style */
 .header {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 14px;
-    align-items: center;
     border-bottom: 1px solid var(--border-color);
+    flex-wrap: nowrap;
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 1600px;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 80px;
 }
+
+.header__logo {
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    padding-left: 40px;
+}
+
+.first_list_header {
+    display: inline-block;
+    list-style: none;
+    gap: 20px;
+    margin-left: -40px;
+    font-weight: 500;
+}
+
+.header_info {
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+}
+
+.header_info a{
+    color: var(--gray);
+}
+
+.svg_header {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
 .studio {
     color: var(--blue);
  }
-
- .navigation {
-    list-style: none;
-    display: inline-block;
-    gap: 40px;
- }
-
-.navigation a {
-    font-family: var(--secondary-font);
-    font-size: 26px;
-}
 
 .header__logo__web {
     color: var(--blue);
     padding-left: 30px;
 }
 
-
-.svg__header {
-    vertical-align: middle;
+.first_list_header {
+display: flex;
 }
 
-.header__info {
-    padding-left: 
-}
 
-#WebStudio {
-    margin-left: -250px;
-    margin-right: -180px;
-}
-
-.header__info-flex {
-    margin-left: -120px;
-}
-
-.list-flex {
-    display: flex;
-    list-style: none;
-    font-weight: 500;
-    line-height: 16.41px;
-    height: 80px;
-    align-items: center;
-    letter-spacing: 0.02em;
-    margin-right: -20px;
-}
-
-.list-flex>li {
-    margin-right: 10px;
-    margin-left: 48px;
-}
-
-.list__info {
-    color: var(--gray);
+.header_info a:hover {
+    fill: var(--blue);
+    stroke: var(--blue);
 }
 
 a {
@@ -114,9 +110,7 @@ a:hover{
     color: var(--blue);
 }
 
-a:hover {
-    stroke: var(--blue);
-}
+
 /* Portiunea principala a paginii */
 .title {
     font-size: 44px;
