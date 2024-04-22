@@ -101,6 +101,11 @@ display: flex;
     stroke: var(--blue);
 }
 
+.header_info a:focus {
+    fill: var(--blue);
+    stroke: var(--blue);
+}
+
 a {
     color: var(--black);
     text-decoration: none;
@@ -110,6 +115,9 @@ a:hover{
     color: var(--blue);
 }
 
+a:focus{
+    color: var(--blue);
+}
 
 /* Portiunea principala a paginii */
 .title {
@@ -218,7 +226,8 @@ a:hover{
     display: flex;
     flex: 1;
     gap: 30px;
-    justify-content: center
+    justify-content: center;
+    height: 428px;
 }
 
 .team__social__list {
@@ -230,28 +239,21 @@ a:hover{
 }
 
 
-.team__social__list>.team__social__item:hover {
+.team__social__item:hover {
     background-color: var(--blue);
-    border-radius: 100px;
-    fill: var(--white);
-    stroke: var(--white);
-}
-
-.team__social__list>.team__social__item:focus {
-    background-color: var(--blue);
-    border-radius: 100px;
-    fill: var(--white);
-    stroke: var(--white);
 }
 
 .team__social__icon {
     fill: var(--icons-color);
     padding: 11px 11px;
+    height: 44px;
 }
 
 .team__social__item {
     width:44px;
     height: 44px;
+    background-color: var(--white);
+    border-radius: 100px;
 }
 
 .our__team__title {
@@ -311,17 +313,17 @@ a:hover{
     margin-bottom: 94px;
 }
 
+.regular__customers__item:hover {
+    border: 3px solid var(--blue);
+    fill: var(--blue);
+    stroke: var(--blue);
+}
+
 .icon__regular__customers {
+    height: 44px;
     fill: var(--icons-color);
 }
 
-.icon__regular__customers:hover {
-    fill: var(--blue);
-}
-
-.regular__customers__item:hover {
-    border: 3px solid var(--blue);
-}
     /* Footer section */
 .footer {
     display: flex;
@@ -380,6 +382,7 @@ a:hover{
     padding: 11px 11px;
     fill: var(--white);
     stroke: var(--white);
+    height: 44px;
 }
 
 .footer__social__list>.footer__social__item:hover {
